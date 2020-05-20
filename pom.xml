@@ -4,7 +4,7 @@
 
 	<groupId>guru.springframework</groupId>
 	<artifactId>sfg-pet-clinic</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 
 	<modules>
 		<module>pet-clinic-data</module>
@@ -20,7 +20,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.0.RELEASE</version>
-		<relativePath/>
+		<relativePath />
 	</parent>
 
 	<properties>
@@ -44,5 +44,10 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<developerConnection>scm:git:https://github.com/javalenjara/sfg-pet-clinic.git</developerConnection>
+	  <tag>sfg-pet-clinic-0.0.3</tag>
+  </scm>
 
 </project>
